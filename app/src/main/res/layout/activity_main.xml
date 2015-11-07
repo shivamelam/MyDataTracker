@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".MainActivity">
+
+    <TextView
+        android:text="Welcome to Data Tracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgd"
+        android:textSize="32sp"
+        android:paddingTop="200dp"
+        android:paddingLeft="12dp"
+        android:textColor="#ff1335ff" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.melam.shiva.datatracker.Settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgd">
+
+    <Button
+        android:id="@+id/sb1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="Add Device"
+        />
+
+    <Button
+        android:id="@+id/sb2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Manage Network"
+
+        />
+
+    <Button
+        android:id="@+id/sb3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Billing Cycle "
+
+        />
+
+    <Button
+        android:id="@+id/sb4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text=" Data Usage"
+
+        />
+
+    <Button
+        android:id="@+id/sb5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Change Password"
+
+        />
+
+
+</LinearLayout>

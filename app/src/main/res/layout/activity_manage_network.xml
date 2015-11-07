@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.melam.shiva.datatracker.ManageNetwork"
+    android:background="@drawable/bgd"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:text="Active Network Type"
+                android:layout_gravity="center_horizontal" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tap to Change Connection"
+            android:id="@+id/manageconnection_settingsintent_btn"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:paddingBottom="20dp"
+            android:layout_weight="0.75" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
